@@ -35,4 +35,4 @@ routerPersonas.post("/", (req, res) => {
 })
 
 app.use("/personas", routerPersonas);
-app.use("/mascotas", routerMascotas);
+app.use("/mascotas", routerMascotas)
